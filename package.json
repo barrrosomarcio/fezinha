@@ -1,0 +1,29 @@
+{
+  "name": "fezinha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrrosomarcio/fezinha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barrrosomarcio/fezinha/issues"
+  },
+  "homepage": "https://github.com/barrrosomarcio/fezinha#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "^7.28.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "nodemon": "^2.0.7"
+  }
+}
