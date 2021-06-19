@@ -1,7 +1,7 @@
 const lotofacil = require('../model/lotofacil');
 
 const getStats = async () => {
-  let stats = [];
+  const stats = [];
   const topNumbers = await lotofacil.getNumbersQuantities();
   for (let i = 0; i < topNumbers.length; i+= 1) {
     const { _id, qtde } = topNumbers[i];
@@ -11,7 +11,6 @@ const getStats = async () => {
       acompanhado,
     }) ;
   }
-  console.log('servico3', stats)
   return stats;
 };
 
